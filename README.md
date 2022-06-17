@@ -15,7 +15,7 @@ In addition, this project will include:
 2. A production README. 
 3. Love and Care put into its development. 
 
-## Initial Render 
+## Initial Renders
 ![My Image](images/render1.jpg)
 
 ![My Image](images/render2.jpg)
