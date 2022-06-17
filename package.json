@@ -1,0 +1,37 @@
+{
+  "name": "in_season",
+  "version": "1.0.0",
+  "description": "In Season is a Javascript Project that is centered around creating an interactive web application using Javascript. In Season will be an interactive website that will allow visitors to see various types of vegetables and which season they are the best in. In Season will also include descriptions and example recipes for visitors of each vegetable. There will be a random button that will allow visitors to view a random vegetable for inspiration. The goal of In Season is to assist intermediate home cooks in their pursuit of cooking mastery by giving them access to indepth information regarding various vegetables.",
+  "main": "index.js",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "start": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enintoah/in_season.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enintoah/in_season/issues"
+  },
+  "homepage": "https://github.com/enintoah/in_season#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.23.1",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
