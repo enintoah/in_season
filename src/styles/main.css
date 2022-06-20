@@ -1,5 +1,20 @@
-.summer {
-  margin: 0;
-  padding: 0;
-  background-color: red;
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  height: 75px;
+  width: 100%;
 }
+
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* width: 100%; */
+  background-color: white;
+  border-bottom: 1px;
+}
+
+/* .hidden {
+  display: none;
+} */
