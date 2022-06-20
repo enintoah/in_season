@@ -1,4 +1,4 @@
 node_modules/
 .DS_Store
 
-scripts/vegetable.js
+src/scripts/vegetable.js
