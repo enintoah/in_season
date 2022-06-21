@@ -9,12 +9,14 @@ const Veg = {
     const autumn = document.getElementById("autumn")
     const winter = document.getElementById("winter")
     const close = document.getElementById('close')
+    const random = document.getElementById('random')
 
     spring.addEventListener('click', this.handleClick)
     summer.addEventListener('click', this.handleClick)
     autumn.addEventListener('click', this.handleClick)
     winter.addEventListener('click', this.handleClick)
     close.addEventListener('click', this.closeModal)
+    random.addEventListener('click', this.random)
   }, 
 
   nutrition() {
@@ -43,22 +45,22 @@ const Veg = {
 
   handleClick(e) {
     e.preventDefault(); 
-    let current = e.target; 
-    Veg.modal(current);
+    let current = e.target;
+    let vegId = current.id
+    Veg.modal(vegId);
   },
   
   modal(veg) {
-    const canvasContainer = document.getElementById('canvas_container');
-    const canvas = document.createElement('canvas');
-    canvas.setAttribute("id", "myChart")
-    canvasContainer.append(canvas);
     const that = this;
+    const modal_title = document.getElementById('modal-title');
     const modalContainer = document.getElementById('modal_container');
-    if (!that.nutrition()[veg.id]) {
+    if (!that.nutrition()[veg]) {
       return 
     }
     else {
-      chart(that.nutrition()[veg.id]);
+      that.createCanvas()
+      modal_title.innerHTML = that.titlelize(veg)
+      chart(that.nutrition()[veg]);
       modalContainer.classList.add('show');
     }
   }, 
@@ -67,8 +69,9 @@ const Veg = {
     e.preventDefault(); 
     const modalContainer = document.getElementById('modal_container');
     modalContainer.classList.remove('show');
+    setTimeout(() => {
     const canvas = document.querySelector('canvas');
-    canvas.remove()
+    canvas.remove() }, 500)
   },
 
   all() {
@@ -82,11 +85,30 @@ const Veg = {
   },
 
   random() {
-    let vegs = this.vegs();
+    let vegs = Veg.all();
     let randomNum = Math.floor(Math.random() * 23)
-    return vegs[randomNum]
+    Veg.modal(vegs[randomNum])
   },
   
+  titlelize(title) {
+    if (title.split(" ").length > 1) {
+      let arr = []
+      title.split(" ").forEach(el => {
+        arr.push(el[0].toUpperCase() + el.slice(1))
+      })
+      return arr.join(" ")
+    }
+    else {
+      return title[0].toUpperCase() + title.slice(1)
+    }
+  },
+
+  createCanvas() {
+    const canvasContainer = document.getElementById('canvas_container');
+    const canvas = document.createElement('canvas');
+    canvas.setAttribute("id", "myChart")
+    canvasContainer.append(canvas);
+  }
 }
 
 export default Veg                                                                      

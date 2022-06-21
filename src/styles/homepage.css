@@ -3,3 +3,10 @@
   width: 100vw;
   background-color: #a8e999;
 }
+
+#homepage h1 {
+  color: orange;
+  height: 40vh;
+  width: 60vw;
+}
+

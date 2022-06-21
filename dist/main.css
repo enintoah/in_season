@@ -132,31 +132,39 @@ table {
   width: 100vw;
   background-color: #a8e999;
 }
+
+#homepage h1 {
+  color: orange;
+  height: 40vh;
+  width: 60vw;
+}
+
+
 /*!******************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/section.css ***!
   \******************************************************************************************************/
 #spring {
   height: 90vh;
   width: 100vw;
-  background-color: #42a680;
+  background-color: #037971;
 }
 
 #summer {
   height: 90vh;
   width: 100vw;
-  background-color: #457d7e;
+  background-color:  #037971;
 }
 
 #autumn {
   height: 90vh;
   width: 100vw;
-  background-color: #42a680;
+  background-color:  #037971;
 }
 
 #winter {
   height: 90vh;
   width: 100vw;
-  background-color: #457d7e;
+  background-color:  #037971;
 }
 
 .hidden {
