@@ -50,13 +50,13 @@ table {
 	border-spacing: 0;
 }
 
-/*!***************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/main.css ***!
-  \***************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/navbar.css ***!
+  \*****************************************************************************************************/
 .navbar {
   overflow: hidden;
   background-color: white;
-  height: 75px;
+  height: 10vh;
   width: 100%;
 }
 
@@ -70,9 +70,7 @@ table {
   border-bottom: 1px;
 }
 
-/* .hidden {
-  display: none;
-} */
+
 /*!****************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/modal.css ***!
   \****************************************************************************************************/
@@ -80,26 +78,39 @@ table {
   box-sizing: border-box;
 }
 
+
 .modal-container {
-  position: fixed;
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center; 
+  position: fixed;
+  opacity: 0; 
+  pointer-events: none;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100vh;  
   width: 100vw;
-  opacity: 0;
-} 
+  transition: opacity 0.3s ease;
+
+}  
+
+
+
 .modal {
   background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px 50px;
   width: 600px;
   max-width: 100%;
-  padding: 30px 50px;
-  border-radius: 5px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  pointer-events: auto;
+}
+
+.modal-container.show {
+  pointer-events: auto;
+  opacity: 1;
 }
 
 
@@ -112,6 +123,44 @@ table {
 .modal p {
   font-size: 14px;
   opacity: 0.7;
+}
+/*!*******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/homepage.css ***!
+  \*******************************************************************************************************/
+#homepage {
+  height: 90vh;
+  width: 100vw;
+  background-color: #a8e999;
+}
+/*!******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/section.css ***!
+  \******************************************************************************************************/
+#spring {
+  height: 90vh;
+  width: 100vw;
+  background-color: #42a680;
+}
+
+#summer {
+  height: 90vh;
+  width: 100vw;
+  background-color: #457d7e;
+}
+
+#autumn {
+  height: 90vh;
+  width: 100vw;
+  background-color: #42a680;
+}
+
+#winter {
+  height: 90vh;
+  width: 100vw;
+  background-color: #457d7e;
+}
+
+.hidden {
+  display: none;
 }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!

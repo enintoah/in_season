@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
     <script src="./dist/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://kit.fontawesome.com/a04e65ad89.js" crossorigin="anonymous"></script>
     <title>In Season?</title>
 
@@ -18,65 +19,63 @@
 
   <body>
 
+    <div class="modal-container" id="modal_container">
+      <div class="modal">
+        <h1>Modals are cool!</h1>
+        <div>
+          <canvas id="myChart"></canvas>        
+        </div>
+        <button id="close">Close Me</button>
+      </div>
+    </div>
+
     <section id="homepage">
       <h1>In Season?</h1>
-
-      <a href="#spring">Spring</a>
-      <a href="#summer">Summer</a>
-      <a href="#autumn">Autumn</a>
-      <a href="#winter">Winter</a>
+      <button class="spring">Spring</button>
+      <button class="summer">Summer</button>
+      <button class="autumn">Autumn</button>
+      <button class="winter">Winter</button>
     </section>
-  
-
-
     
     <section id="spring" class="hidden"> 
       <h2>Spring</h2>
-      <button>Shallot</button>
-      <div class="modal-container" id="modal_container">
-        <div class="modal">
-          <h1>Modals are cool!</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo impedit id cumque nesciunt quos earum voluptate fugit nostrum temporibus. Pariatur, blanditiis fugiat aliquam aut neque numquam eligendi ab expedita.</p>
-          <button id="close">Close Me</button>
-        </div>
-      </div>
-      <button>Onion</button>
-      <button>Carrot</button>
-      <button>Cabbage</button>
-      <button>Green Bean</button>
-      <button>Ginger</button>
+      <button id="shallot">Shallot</button>
+      <button id="onion">Onion</button>
+      <button id="carrot">Carrot</button>
+      <button id="cabbage">Cabbage</button>
+      <button id="green bean">Green Bean</button>
+      <button id="ginger">Ginger</button>
     </section>
     
-    <section id="summer" class="shown">
+    <section id="summer" class="hidden">
       <h2>Summer</h2>
-      <button>Tomato</button>
-      <button>Spinach</button>
-      <button>Asparagus</button>
-      <button>Artichokes</button>
-      <button>Cucumber</button>
-      <button>Bell Peppers</button>
+      <button id="tomato">Tomato</button>
+      <button id="spinach">Spinach</button>
+      <button id="asparagus">Asparagus</button>
+      <button id="artichokes">Artichokes</button>
+      <button id="cucumber">Cucumber</button>
+      <button id="bell peppers">Bell Peppers</button>
     </section>
     
     <section id="autumn" class="hidden">
       <h2>Autumn</h2>
-      <button>Celery</button>
-      <button>Mushroom</button>
-      <button>Potato</button>
-      <button>Pak Choi</button>
-      <button>Broccoli</button>
-      <button>Corn</button>
+      <button id="celery">Celery</button>
+      <button id="mushroom">Mushroom</button>
+      <button id="potato">Potato</button>
+      <button id="pak choi">Pak Choi</button>
+      <button id="broccoli">Broccoli</button>
+      <button id="corn">Corn</button>
     </section>
     
     <section id="winter" class="hidden">
       <h2>Winter</h2>
-      <button>Brussel Sprouts</button>
-      <button>Parsnip</button>
-      <button>Kale</button>
-      <button>Leek</button>
-      <button>Turnip</button>
-      <button>Cauliflower</button>
+      <button id="brussel sprouts">Brussel Sprouts</button>
+      <button id="parsnip">Parsnip</button>
+      <button id="kale">Kale</button>
+      <button id="leek">Leek</button>
+      <button id="turnip">Turnip</button>
+      <button id="cauliflower">Cauliflower</button>
     </section>
-
-
     </body>
+
     </html>
