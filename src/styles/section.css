@@ -1,0 +1,27 @@
+#spring {
+  height: 90vh;
+  width: 100vw;
+  background-color: #42a680;
+}
+
+#summer {
+  height: 90vh;
+  width: 100vw;
+  background-color: #457d7e;
+}
+
+#autumn {
+  height: 90vh;
+  width: 100vw;
+  background-color: #42a680;
+}
+
+#winter {
+  height: 90vh;
+  width: 100vw;
+  background-color: #457d7e;
+}
+
+.hidden {
+  display: none;
+}

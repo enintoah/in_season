@@ -1,0 +1,17 @@
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  height: 10vh;
+  width: 100%;
+}
+
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* width: 100%; */
+  background-color: white;
+  border-bottom: 1px;
+}
+
