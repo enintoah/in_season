@@ -3,7 +3,7 @@ import key from './keys'
 
 const Veg = { 
 
-  eventListeners() {
+  start() {
     const spring = document.getElementById("spring")
     const summer = document.getElementById("summer")
     const autumn = document.getElementById("autumn")

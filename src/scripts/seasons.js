@@ -1,4 +1,11 @@
 const Seasons = {
+
+
+  start() {
+    Seasons.default()
+    Seasons.select()
+  }, 
+
   default() {
     let season = this.current()
     const section = document.getElementById(season)
