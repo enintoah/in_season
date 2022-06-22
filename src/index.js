@@ -17,5 +17,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     behavior: 'smooth'
     })
   })
+
+  const cheat = document.getElementsByClassName('cheat')[0]
+  cheat.addEventListener(('click'), () => {
+    location.href = 'https://spinthewheel.app/fast-food-2q47';
+  })
+
 })
 

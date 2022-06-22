@@ -1,25 +1,212 @@
+@font-face {
+  font-family: Dutch Tulips;
+  src: url('../../Dutch\ Tulips\ -\ TTF.ttf');
+}
+
+@font-face {
+  font-family: Summer Vibes;
+  src: url('../../Summer\ Vibes\ TTF.ttf');
+}
+
+@font-face {
+  font-family: Autumn in November;
+  src: url('../../Autumn\ in\ November.ttf');
+}
+
+@font-face {
+  font-family: Snowy;
+  src: url('../../Snowychristmas-L3ZzZ.otf');
+}
+
+
 #spring {
   height: 90vh;
   width: 100vw;
   background-color: #424242;
+  text-align: center;
 }
+
+#spring h2 {
+  font-family: Dutch Tulips;
+  font-size: 150px;
+  color: #cc5803;
+  text-shadow: 4px 4px 4px black;
+  padding-top: 10%;  
+  padding-bottom: 10%;
+}
+
+#spring button {
+  margin: 20px;
+  appearance: none;
+  background-color: #5da271;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 8px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#spring button:hover {
+  background-color: grey;
+}
+
 
 #summer {
   height: 90vh;
   width: 100vw;
   background-color:  #424242;
+  text-align: center;
+}
+
+#summer h2 {
+  font-family: Summer Vibes;
+  font-size: 150px;
+  color: #cc5803;
+  text-shadow: 4px 4px 4px black;
+  padding-top: 10%;  
+  padding-bottom: 10%;
+}
+
+#summer button {
+  margin: 20px;
+  appearance: none;
+  background-color: #5da271;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 8px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#summer button:hover {
+  background-color: grey;
 }
 
 #autumn {
   height: 90vh;
   width: 100vw;
   background-color:  #424242;
+  text-align: center;
+}
+
+#autumn h2 {
+  font-family: Autumn in November;
+  font-size: 100px;
+  color: #cc5803;
+  text-shadow: 4px 4px 4px black;
+  padding-top: 10%;  
+  padding-bottom: 10%;
+}
+
+#autumn button {
+  margin: 20px;
+  appearance: none;
+  background-color: #5da271;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 8px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#autumn button:hover {
+  background-color: grey;
 }
 
 #winter {
   height: 90vh;
   width: 100vw;
   background-color:  #424242;
+  text-align: center;
+}
+
+#winter h2 {
+  font-family: Snowy;
+  font-size: 200px;
+  color: #cc5803;
+  text-shadow: 4px 4px 4px black;
+  padding-top: 10%;  
+  padding-bottom: 8%;
+}
+
+#winter button {
+  margin: 20px;
+  appearance: none;
+  background-color: #5da271;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 8px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#winter button:hover {
+  background-color: grey;
 }
 
 .hidden {

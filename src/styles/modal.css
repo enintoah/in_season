@@ -48,3 +48,49 @@
   font-size: 14px;
   opacity: 0.7;
 }
+
+#close {
+  margin: 20px;
+  appearance: none;
+  background-color: #424242;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 8px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  /* display: flex;
+  justify-content: space-between; */
+  padding-bottom: 5px;
+}
+  
+#close:hover {
+  background-color: grey;
+}
+
+#modal-title {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #dd5803;
+  text-shadow: 2px 2px 2px black;
+  pointer-events: none;
+}
+
+
+/* 
+.modal {
+  pointer-events: none;
+} */
