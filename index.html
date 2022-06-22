@@ -7,18 +7,29 @@
     <script src="./dist/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://kit.fontawesome.com/a04e65ad89.js" crossorigin="anonymous"></script>
-    <title>In Season?</title>
+    <title>In Season</title>
 
 
       <nav class="navbar">
-          <i class="fa-solid fa-bars"></i>
-          <span class="navbar-brand mb-0 h1">In Season?</span>
-          <button>Cheat Day</button>
+          <ul class="dropdown">
+            <li><i class="fa-solid fa-bars"></i></li> 
+            <ul class="dropdown-content">
+              <li>Spring</li>
+              <li>Summer</li>
+              <li>Autumn</li>
+              <li>Winter</li>
+            </ul>
+          </ul>
+          <button class="cheat">Cheat Day</button>
           <button type="button" id="random">Random</button>
+          <h1>In Season</h1>
+
       </nav>
   </head>
 
   <body>
+
+
 
     <div class="modal-container" id="modal_container">
       <div class="modal">
@@ -30,7 +41,7 @@
     </div>
 
     <section id="homepage">
-      <h1>In Season?</h1>
+      <h1>In Season</h1>
       <button class="spring">Spring</button>
       <button class="summer">Summer</button>
       <button class="autumn">Autumn</button>

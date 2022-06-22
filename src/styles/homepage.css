@@ -1,12 +1,49 @@
+@font-face {
+  font-family: Lemon Jelly;
+  src: url('../../LemonJellyPersonalUse-dEqR.ttf');
+}
+
 #homepage {
   height: 90vh;
   width: 100vw;
-  background-color: #a8e999;
+  background-color: #d3bdb0;
+  text-align: center;
+  padding: 100px;
 }
 
 #homepage h1 {
-  color: orange;
-  height: 40vh;
-  width: 60vw;
+  color: #dd5803;
+  font-size: 250px;
+  font-family: Lemon Jelly;
+  padding: 20px;
+  text-shadow: 2px 2px 2px black;
 }
 
+#homepage button {
+  margin: 15px;
+  appearance: none;
+  background-color: #424242;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#homepage button:hover {
+  background-color: grey;
+}

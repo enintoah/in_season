@@ -58,17 +58,78 @@ table {
   background-color: white;
   height: 10vh;
   width: 100%;
-}
-
-
-.navbar {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  /* width: 100%; */
   background-color: white;
   border-bottom: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,1);
+  /* display: inline-flex; */
 }
+
+.navbar button {
+  margin: 18px;
+  appearance: none;
+  background-color: #424242;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap; 
+  float: right;
+}
+
+.navbar button:hover {
+  background-color: grey;
+}
+
+.navbar h1 {
+  font-size: 75px;
+  padding-left: 10px;
+  color: #dd5803;
+  font-family: Lemon Jelly;
+  text-shadow: 2px 2px 2px black;
+  /* float: left; */
+  float: left; 
+}
+
+.navbar i {
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
 
 
 /*!****************************************************************************************************!*\
@@ -127,18 +188,55 @@ table {
 /*!*******************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/homepage.css ***!
   \*******************************************************************************************************/
+@font-face {
+  font-family: Lemon Jelly;
+  src: url('../../LemonJellyPersonalUse-dEqR.ttf');
+}
+
 #homepage {
   height: 90vh;
   width: 100vw;
-  background-color: #a8e999;
+  background-color: #d3bdb0;
+  text-align: center;
+  padding: 100px;
 }
 
 #homepage h1 {
-  color: orange;
-  height: 40vh;
-  width: 60vw;
+  color: #dd5803;
+  font-size: 250px;
+  font-family: Lemon Jelly;
+  padding: 20px;
+  text-shadow: 2px 2px 2px black;
 }
 
+#homepage button {
+  margin: 15px;
+  appearance: none;
+  background-color: #424242;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#homepage button:hover {
+  background-color: grey;
+}
 
 /*!******************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/section.css ***!
@@ -146,25 +244,25 @@ table {
 #spring {
   height: 90vh;
   width: 100vw;
-  background-color: #037971;
+  background-color: #424242;
 }
 
 #summer {
   height: 90vh;
   width: 100vw;
-  background-color:  #037971;
+  background-color:  #424242;
 }
 
 #autumn {
   height: 90vh;
   width: 100vw;
-  background-color:  #037971;
+  background-color:  #424242;
 }
 
 #winter {
   height: 90vh;
   width: 100vw;
-  background-color:  #037971;
+  background-color:  #424242;
 }
 
 .hidden {
@@ -173,4 +271,7 @@ table {
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
-
+@font-face {
+  font-family: Lemon Jelly;
+  src: url("../LemonJellyPersonalUse-dEqR.ttf");
+}
