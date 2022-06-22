@@ -18,14 +18,18 @@ const Seasons = {
     let shown = document.getElementsByClassName('shown')[0];
     let hidden = document.getElementById(season)
     if (shown === hidden) {
-      window.scrollTo(0, shown.scrollHeight)
+      window.scrollTo({top: shown.scrollHeight,
+        behavior: 'smooth'
+      })
     } 
     else {
       shown.classList.remove('shown');
       shown.classList.add('hidden');
       hidden.classList.remove('hidden')
       hidden.classList.add('shown')
-      window.scrollTo(0, hidden.scrollHeight)
+      window.scrollTo({top: hidden.scrollHeight,
+        behavior: 'smooth'
+      })
     }
   },
 

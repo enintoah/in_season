@@ -10,5 +10,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
   Seasons.default()
   Seasons.select()
   Veg.eventListeners()
+
+  const navTitle = document.getElementById('nav_title')
+  navTitle.addEventListener('click', ()=> {
+    window.scrollTo({top: 0,
+    behavior: 'smooth'
+    })
+  })
 })
 
