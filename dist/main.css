@@ -64,7 +64,6 @@ table {
   background-color: white;
   border-bottom: 1px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,1);
-  /* display: inline-flex; */
 }
 
 .navbar button {
@@ -103,7 +102,6 @@ table {
   color: #5DA271;
   font-family: Lemon Jelly;
   text-shadow: 2px 2px 2px black;
-  /* float: left; */
   float: left; 
 }
 
@@ -140,7 +138,6 @@ table {
   box-sizing: border-box;
 }
 
-
 .modal-container {
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
@@ -154,10 +151,7 @@ table {
   height: 100vh;  
   width: 100vw;
   transition: opacity 0.3s ease;
-
 }  
-
-
 
 .modal {
   background-color: white;
@@ -175,12 +169,10 @@ table {
   opacity: 1;
 }
 
-
 .modal h1 {
   margin: 0;
   padding: 20px;
 }
-
 
 .modal p {
   font-size: 14px;
@@ -210,8 +202,6 @@ table {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  /* display: flex;
-  justify-content: space-between; */
   padding-bottom: 5px;
 }
   
@@ -227,19 +217,9 @@ table {
   pointer-events: none;
 }
 
-
-/* 
-.modal {
-  pointer-events: none;
-} */
 /*!*******************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/homepage.css ***!
   \*******************************************************************************************************/
-@font-face {
-  font-family: Lemon Jelly;
-  src: url('../../LemonJellyPersonalUse-dEqR.ttf');
-}
-
 #homepage {
   height: 90vh;
   width: 100vw;
@@ -290,27 +270,6 @@ table {
 /*!******************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/section.css ***!
   \******************************************************************************************************/
-@font-face {
-  font-family: Dutch Tulips;
-  src: url('../../Dutch\ Tulips\ -\ TTF.ttf');
-}
-
-@font-face {
-  font-family: Summer Vibes;
-  src: url('../../Summer\ Vibes\ TTF.ttf');
-}
-
-@font-face {
-  font-family: Autumn in November;
-  src: url('../../Autumn\ in\ November.ttf');
-}
-
-@font-face {
-  font-family: Snowy;
-  src: url('../../Snowychristmas-L3ZzZ.otf');
-}
-
-
 #spring {
   height: 90vh;
   width: 100vw;
@@ -350,14 +309,11 @@ table {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #spring button:hover {
   background-color: grey;
 }
-
 
 #summer {
   height: 90vh;
@@ -398,9 +354,6 @@ table {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #summer button:hover {
@@ -446,8 +399,6 @@ table {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #autumn button:hover {
@@ -493,8 +444,6 @@ table {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #winter button:hover {
@@ -509,5 +458,21 @@ table {
   \*************************************************************************************************************************************/
 @font-face {
   font-family: Lemon Jelly;
-  src: url("../LemonJellyPersonalUse-dEqR.ttf");
+  src: url("../../fonts/LemonJellyPersonalUse-dEqR.ttf");
+}
+@font-face {
+  font-family: Dutch Tulips;
+  src: url("../../fonts/Dutch Tulips - TTF.ttf");
+}
+@font-face {
+  font-family: Summer Vibes;
+  src: url("../../fonts/Summer Vibes TTF.ttf");
+}
+@font-face {
+  font-family: Autumn in November;
+  src: url("../../fonts/Autumn in November.ttf");
+}
+@font-face {
+  font-family: Snowy;
+  src: url("../../fonts/Snowychristmas-L3ZzZ.otf");
 }

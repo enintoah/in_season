@@ -1,24 +1,3 @@
-@font-face {
-  font-family: Dutch Tulips;
-  src: url('../../Dutch\ Tulips\ -\ TTF.ttf');
-}
-
-@font-face {
-  font-family: Summer Vibes;
-  src: url('../../Summer\ Vibes\ TTF.ttf');
-}
-
-@font-face {
-  font-family: Autumn in November;
-  src: url('../../Autumn\ in\ November.ttf');
-}
-
-@font-face {
-  font-family: Snowy;
-  src: url('../../Snowychristmas-L3ZzZ.otf');
-}
-
-
 #spring {
   height: 90vh;
   width: 100vw;
@@ -58,14 +37,11 @@
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #spring button:hover {
   background-color: grey;
 }
-
 
 #summer {
   height: 90vh;
@@ -106,9 +82,6 @@
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #summer button:hover {
@@ -154,8 +127,6 @@
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #autumn button:hover {
@@ -201,8 +172,6 @@
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 #winter button:hover {
