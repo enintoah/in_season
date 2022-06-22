@@ -13,6 +13,7 @@ const Seasons = {
 
   showSeason(e) {
     e.preventDefault();
+    Seasons.doubleCheck()
     let selected = e.target;
     let season = selected.className;
     let shown = document.getElementsByClassName('shown')[0];
@@ -22,10 +23,10 @@ const Seasons = {
         behavior: 'smooth'
       })
     } 
-    else {
+    else if (hidden !== shown){
       shown.classList.remove('shown');
-      shown.classList.add('hidden');
       hidden.classList.remove('hidden')
+      shown.classList.add('hidden');
       hidden.classList.add('shown')
       window.scrollTo({top: hidden.scrollHeight,
         behavior: 'smooth'
@@ -40,8 +41,20 @@ const Seasons = {
     if (month > 4 && month < 8) return 'summer'
     if (month > 7 && month < 11) return 'autumn'
     if (month < 2 || month === 11) return 'winter'
-  }
+  },
 
+  doubleCheck() {
+    const sections = [
+      document.getElementById('winter'), document.getElementById('summer'), 
+      document.getElementById('autumn'), document.getElementById('spring')
+    ]
+    sections.forEach(el => { 
+      if (el.classList[0] === undefined) {
+        el.classList.add('shown')
+      }
+    })
+    return 
+  }
 }
 
 export default Seasons;
