@@ -493,3 +493,7 @@ table {
   font-family: Snowy;
   src: url("./../fonts/Snowychristmas-L3ZzZ.otf");
 }
+@font-face {
+  font-family: Dutch Tulips;
+  src: url("./../fonts/Dutch Tulips - TTF.ttf");
+}
