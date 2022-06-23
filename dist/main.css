@@ -113,7 +113,6 @@ table {
 #navicon {
   font-size: 30px;
   padding: 30px;
-  cursor: pointer;
 }
 
 #github {
@@ -129,23 +128,16 @@ table {
   font-size: 40px;
   padding: 1.2%; 
   cursor: pointer;
+  color: #0072b1;
 }
 
-.dropdown-content {
-  /* display: none; */
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 9;
+#github:hover {
+  color: gray;
 }
 
-ul {
-  position: relative;
-  margin-top: 50px;
+#linkedIn:hover {
+  color: gray;
 }
-
-#navicon:hover .dropdown-content {display: block;}
 
 .nav_container1 {
   float: left;
@@ -483,21 +475,21 @@ ul {
   \*************************************************************************************************************************************/
 @font-face {
   font-family: Lemon Jelly;
-  src: url("../../fonts/LemonJellyPersonalUse-dEqR.ttf");
-}
-@font-face {
-  font-family: Dutch Tulips;
-  src: url("../../fonts/Dutch Tulips - TTF.ttf");
-}
-@font-face {
-  font-family: Summer Vibes;
-  src: url("../../fonts/Summer Vibes TTF.ttf");
+  src: url("./../fonts/LemonJellyPersonalUse-dEqR.ttf");
 }
 @font-face {
   font-family: Autumn in November;
-  src: url("../../fonts/Autumn in November.ttf");
+  src: url("./../fonts/Autumn in November.ttf");
+}
+@font-face {
+  font-family: Summer Vibes;
+  src: url("./../fonts/Summer Vibes TTF.ttf");
+}
+@font-face {
+  font-family: Autumn in November;
+  src: url("./../fonts/Autumn in November.ttf");
 }
 @font-face {
   font-family: Snowy;
-  src: url("../../fonts/Snowychristmas-L3ZzZ.otf");
+  src: url("./../fonts/Snowychristmas-L3ZzZ.otf");
 }
