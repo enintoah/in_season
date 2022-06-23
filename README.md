@@ -2,7 +2,7 @@
 
 <a href="https://enintoah.github.io/in_season/">In Season</a> is a web application that is centered around creating an interactive way to learn about vegetables that are currently in season using Javascript. In Season will be an interactive website that will allow visitors to see various types of vegetables and which season they are the best in. There will be a random button that will allow visitors to view a random vegetable for cooking inspiration. The goal of In Season is to assist intermediate home cooks in their pursuit of cooking mastery by giving them access to  information regarding various vegetables. 
 
-![My Image](images/final_render)
+![My Image](images/final_render.jpg)
 
 ## Functionality 
 
