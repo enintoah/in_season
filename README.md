@@ -4,7 +4,9 @@
 
 <br>
 <br>
+
 ![My Image](images/final_render.jpg)
+
 <br>
 <br>
 
