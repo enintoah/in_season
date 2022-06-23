@@ -1,40 +1,33 @@
-# In Season
+<a href="https://enintoah.github.io/in_season/"><h1>In Season</h1></a>
 
-In Season is a Javascript Project that is centered around creating an interactive web application using Javascript. In Season will be an interactive website that will allow visitors to see various types of vegetables and which season they are the best in. In Season will also include descriptions and example recipes for visitors of each vegetable. There will be a random button that will allow visitors to view a random vegetable for inspiration. The goal of In Season is to assist intermediate home cooks in their pursuit of cooking mastery by giving them access to indepth information regarding various vegetables. 
+<a href="https://enintoah.github.io/in_season/">In Season</a> is a web application that is centered around creating an interactive way to learn about vegetables that are currently in season using Javascript. In Season will be an interactive website that will allow visitors to see various types of vegetables and which season they are the best in. There will be a random button that will allow visitors to view a random vegetable for cooking inspiration. The goal of In Season is to assist intermediate home cooks in their pursuit of cooking mastery by giving them access to  information regarding various vegetables. 
 
-## Functionality & MVP's
+![My Image](images/final_render)
+
+## Functionality 
 
 1. Allow for visitors to see different vegetables that are categorized by seasons. 
-2. Have information and descriptions regarding the vegetable that will be helpful in further developing a person's cooking ability. 
-3. Have a navigation header that will allow visitors to navigate between each section (each section will be a different season)
+2. Have information regarding the selected vegetable. 
+3. Include many interactive and visually pleasing ways to navigate through seasons and vegetables. 
 4. Include a random functionality that will allow visitors to view a random vegetable for inspiration. 
 5. Will be a single page website with different sections for ease of use. 
+6. Have a modal that pops up with vegetable information.
 
-In addition, this project will include: 
-1. Modals for each vegetable with information and example recipes. 
+In addition, this project includes: 
+1. A cheat day button that will redirect users to a website to randomly choose a fast food restaurant. 
 2. A production README. 
-3. Love and Care put into its development. 
+3. Links to personal websites.
+4. The current season is auto selected when loading website. 
+5. Love and Care put into its development. 
 
-## Initial Renders
-![My Image](images/render1.jpg)
+## Possible Additional Future Functionality
+1. A drop down menu for additional ways to navigate through the page.
+2. Additional information and visuals for each vegetable.
+3. Support for different screen resolutions. 
 
-![My Image](images/render2.jpg)
-
-## Technologies, Libraries, API's
-1. Vegetable information will be pulled from Fit Life Food API from RAPID Api. 
-2. Webpack will be used to transpire and bundle Javacript code.
+## Technologies Used  
+1. Fit Life Food API from RAPID Api to pull vegetable information. 
+2. Webpack and Babel is used to transpile and bundle Javacript code.
 3. Npm is used to manage In Season dependencies. 
-4. FullPage.js will be used to create a single page scrolling website. 
-5. Possibly a library for easily creating modals. 
+4. Chart.js is used to create interactive charts displaying vegetable information.
 
-## Implementation Timeline
-1. Friday Afternoon & Weekend: Research technologies that will be used for the project. Create the base framework for the entire the project. Figure out how different technologies will work with each other. 
-2. Monday: Connect API with website. Find extra information for each of the vegetables. 
-3. Tuesday: Make sure core functionality works. Begin adding CSS styling for the website. Work on modals and animation. 
-4. Wednesday: Finish CSS styling and animations. Add Bonus features if finished early. 
-5. Thursday Morning: Deply to GitHub pages and update README.md. 
-
-## Bonus Features 
-1. A cheat day functionality that will allow visitors to add various restaurants and a random restaurant will be chosen for them from those added.
-2. Animations for showing random elements getting chosen. 
-3. Updated fonts. 

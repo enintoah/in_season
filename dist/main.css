@@ -107,17 +107,20 @@ table {
   text-shadow: 2px 2px 2px black;
   float: right;
   padding-left: 10px;
+  cursor: pointer;
 } 
 
 #navicon {
   font-size: 30px;
   padding: 30px;
+  cursor: pointer;
 }
 
 #github {
   float: right;
   font-size: 40px;
   padding: 1.2%;
+  cursor: pointer;
 }
 
 
@@ -125,23 +128,24 @@ table {
   float: right;
   font-size: 40px;
   padding: 1.2%; 
+  cursor: pointer;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-} 
-
 .dropdown-content {
-  display: none;
+  /* display: none; */
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 9;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+ul {
+  position: relative;
+  margin-top: 50px;
+}
+
+#navicon:hover .dropdown-content {display: block;}
 
 .nav_container1 {
   float: left;
