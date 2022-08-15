@@ -6,7 +6,7 @@
   padding: 100px;
 }
 #id_container {
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 #homepage h1 {
@@ -14,7 +14,12 @@
   font-size: 250px;
   font-family: Lemon Jelly;
   text-shadow: 4px 4px 4px black;
-  padding-bottom: 2%;
+}
+
+#homepage h2 {
+  padding-bottom: 4%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #homepage button {
